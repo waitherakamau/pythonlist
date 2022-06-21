@@ -1,0 +1,93 @@
+# delete even numbers
+# x=[5,3,7,8,20,15,2,6,10]
+# for num in x:
+#     if num%2==0:
+#         x.remove(num)
+#         print(x)
+        # DATA TYPES
+        # is an orederd sequence of items very flexible all items in a list
+        # do not need to be of the same type.we declare a list by items are 
+        # separated by commas and enclosed with brackets
+
+
+a=[5,10,15,20,25,30,35,40]
+print("a[2]= ",a[2])
+
+print("a[0:3] = ", a[0:3])
+
+print("a[5:] = ", a[5:])
+
+a = [1, 2, 3]
+a[2] = 4
+print(a)
+# tuple
+# same as list an ordered sequence of items but the are immutable and defined using 
+# parantheses where items are separated using commas 
+t = (5,'program',1+3j)
+print("t[1] = ",t[1])
+print("t[0:3] =",t[0:3])
+print(t)
+
+# Strings 
+# sequence of characters 
+s="this is as tring "
+print (s)
+
+s="Hello world"
+print("s[4] ",s[4])
+
+print("s[1] ",s[1])
+print("s[0:2] ",s[0:2])
+print("s[6:11] ",s[6:11])
+
+
+# sets
+# an oredered collection of unique items
+# it is defined by values and separated by commas inside braces
+# items in set are not orederd 
+a={5,2,3,1,4}
+print("a = ",a)
+print(type(a))
+
+
+a={1,2,2,3,3}
+print(a)
+
+set2={'james',2,3,'python'}
+print(set2)
+set2.a(10)
+print(set2)
+
+# DICTIONARIES
+# an oredered collection of keys and values 
+# used when we have a huge amount of data
+
+d={1:'value','key':2}
+print(type(d))
+#conversation between data types
+x=(float(5))
+print(float(5))
+
+y=(int(10.2))
+print(int(10.2))
+
+z=(float('25'))
+print(float('25'))
+print(type (s))
+
+d={1:"jimmy",2:"sech",3:"Alex",4:"joyce"}
+print(d)
+
+c={1:'ses',2:'rea',3:'tea'}
+print(c)
+print("1st name is +d[1]")
+print(d.keys())
+print(d.values())
+
+print(type([]) is list)
+
+list=[20,70,50,3,12]
+list.remove(min(list))
+print(list)
+
+
