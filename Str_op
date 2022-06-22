@@ -1,0 +1,33 @@
+import math
+
+
+# string1 = 'children are playing'
+# string1_len =len(string1)
+# half_string=math.ceil(string1_len/2)
+# part_a=''
+# part_b=''
+
+# part_a=string1[:half_string]
+# new_part_a=part_a.upper()
+# part_b=string1[:half_string:string1_len]
+# changed_string=new_part_a+part_b
+# print(changed_string)
+
+string1 = 'children are playing'
+ 
+string1_len = len(string1)
+ 
+half_string = math.ceil(string1_len/2)
+ 
+part_a = ''
+part_b = ''
+ 
+part_a = string1[:half_string]
+new_part_a = part_a.upper()
+ 
+part_b = string1[half_string:string1_len]
+ 
+changed_string = new_part_a+part_b
+ 
+print(changed_string)
+ 
