@@ -13,21 +13,24 @@ import math
 # changed_string=new_part_a+part_b
 # print(changed_string)
 
+#giving a string a variable
 string1 = 'children are playing'
- 
+ #getting the length of the whole string
 string1_len = len(string1)
- 
+ #getting the index of the whole number
 half_string = math.ceil(string1_len/2)
- 
+#getting the index of the middle number
+#creating an empty string to assign the inputs
 part_a = ''
 part_b = ''
- 
+ #getting the middle part
 part_a = string1[:half_string]
+#changing the middle part to uppercase
 new_part_a = part_a.upper()
- 
+ #getting the other half
 part_b = string1[half_string:string1_len]
- 
+ #concatenating the two
 changed_string = new_part_a+part_b
- 
+ #then finally printing the outcome
 print(changed_string)
  
