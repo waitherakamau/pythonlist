@@ -6,11 +6,18 @@ user=input("Enter the value:")
 reverse=user[::-1]
 if(user==reverse):
     print("yes it is a palindrome")
-    else:
-        print("it is")
-    
-    
+else:
+    print("it is not a palindrome")
 
 
 
 
+str="tot"
+start=0
+last=len(str)-1
+while start < last:
+    [start],[last]=[last],[start]
+    start+=1
+    last-=1
+    x=""
+    print(x.join(str))
